@@ -1,0 +1,49 @@
+@media (max-width: 950px){
+    header{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        border-radius: 0;
+    }
+
+    header img{
+        width: 15%;
+        margin: 0 0 0 3%;
+    }
+
+    .menu, .aside{
+        display: none;
+    }
+
+    .conteudo{
+        margin-top: 1em;
+        grid-template-columns: 0% 100% 0%;
+    }
+    .banner{
+        grid-column: 1/4;
+        width: 100%;
+    }
+
+    .foto-1{
+        grid-area: foto-1;
+        border-radius: 22px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-1 img{
+        width: 100%;
+        order: 1;
+    }
+    
+
+    .foto-1 p{
+     display: none;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+}
